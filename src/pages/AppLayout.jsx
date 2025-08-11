@@ -1,12 +1,18 @@
-import { Outlet } from "react-router-dom";
-import PageNav from "../components/PageNav";
+// import Map from "../components/Map";
+// import Sidebar from "../components/Sidebar";
+// import User from "../components/User";
 
+import AppNav from "../components/AppNav";
+import styles from "./AppLayout.module.css";
 
-export default function AppLayout() {
+function AppLayout() {
   return (
-    <div>
-        <PageNav />
-        <Outlet />
+    <div className={styles.app}>
+      <AppNav />
+      <p>App</p>
+      this is applayout
     </div>
-  )
+  );
 }
+
+export default AppLayout;

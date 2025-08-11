@@ -5,7 +5,6 @@ import styles from "./PageNav.module.css";
 function PageNav() {
   return (
     <nav className={styles.nav}>
-      
       <Logo />
 
       <ul>
