@@ -1,7 +1,10 @@
+import PageNav from "../components/PageNav"
+
 const Hompage = () => {
   return (
     <div>
-        Worldwise
+      <PageNav />
+      <h1>Worldwise</h1>
     </div>
   )
 }
