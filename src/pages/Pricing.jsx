@@ -2,7 +2,7 @@
 const Pricing = () => {
   return (
     <div>
-        Pricing
+        <h1>Pricing</h1>
     </div>
   )
 }
